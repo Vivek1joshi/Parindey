@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="Gmail Suite" annotations="JDK" parallel="tests">
+    <listeners>
+        <listener class-name="ReportManager.Listener"/>
+    </listeners>
+<!--  <test name="SignUp">-->
+<!--      <parameter name="entername" value="hero"/>-->
+<!--      <parameter name="bornplace" value="goa"/>-->
+<!--        <classes>-->
+<!--           <class name="testcases.android.ParindeyLoginTest"/>-->
+<!--                  </classes>-->
+<!--   </test>-->
+<!--    <test name="EditProfile">-->
+<!--        <parameter name="entername" value="hero"/>-->
+<!--        <parameter name="bornplace" value="goa"/>-->
+<!--        <parameter name="name" value="vivek joshi"/>-->
+<!--        <classes>-->
+<!--            <class name="testcases.android.VerifyEditProfile">-->
+<!--        </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="SearchTab">-->
+<!--        <parameter name="entername" value="hero"/>-->
+<!--        <parameter name="bornplace" value="goa"/>-->
+<!--        <classes>-->
+<!--            <class name="testcases.android.ParindeySearchTab"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="FilterModule">-->
+<!--        <parameter name="entername" value="hero"/>-->
+<!--        <parameter name="bornplace" value="goa"/>-->
+<!--        <classes>-->
+<!--            <class name="testcases.android.VerifyFilterModule"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="FindTravelPartner">-->
+<!--        <parameter name="entername" value="hero"/>-->
+<!--        <parameter name="bornplace" value="goa"/>-->
+<!--        <parameter name="writeplan" value="Go went gone"/>-->
+<!--        <classes>-->
+<!--            <class name="testcases.android.VerifyFindTravelPartner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="DashBoardScreen">-->
+<!--        <parameter name="entername" value="hero"/>-->
+<!--        <parameter name="bornplace" value="goa"/>-->
+<!--        <parameter name="comment" value="nyc"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="testcases.android.VerifyDashBoardScreen"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="AddStory">
+        <parameter name="entername" value="hero"/>
+        <parameter name="bornplace" value="goa"/>
+        <parameter name="writestrory" value="Awesome trip"/>
+        <classes>
+            <class name="testcases.android.VerifyAddTravelStory"/>
+        </classes>
+    </test>
+</suite>
